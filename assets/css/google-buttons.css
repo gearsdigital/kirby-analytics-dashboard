@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:500);
+
+.google-auth {
+    color: #fff;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 1;
+    font-family: Roboto, sans-serif;
+    display: inline-block;
+    border-radius: 1px;
+    padding-right: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    outline: 0;
+    cursor: pointer;
+    background: #4285f4;
+    border: #4285F4 solid 1px;
+    box-shadow: 0 0 1px 0 rgba(0,0,0,0.12), 0 1px 1px 0 rgba(0,0,0,0.24);
+    text-align: left;
+}
+
+.google-auth:before {
+    content: "";
+    background-image: url(../images/btn_google_dark_normal.svg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    border-radius: 1px;
+    margin-right: 8px
+}
+
+.google-auth:focus, .google-auth:hover{
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.12), 0 2px 2px 0 rgba(0,0,0,0.24);
+}
+
+.google-auth:active {
+    background: #3367D6;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.12), 0 2px 2px 0 rgba(0,0,0,0.24);
+    border-radius: 2px;
+}

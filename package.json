@@ -1,0 +1,20 @@
+{
+  "name": "kirby-analytics-dashboard",
+  "version": "1.0.0",
+  "description": "Kirby Analytics Dashboard is a Kirby plugin which extends your dashboard with some Google Analytics statistics and reports.",
+  "dependencies": {
+    "chart.js": "^2.7.1",
+    "moment": "^2.20.1",
+    "moment-range": "^3.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gearsdigital/kirby-analytics-dashboard.git"
+  },
+  "author": "Steffen Giers <steffen.giers@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gearsdigital/kirby-analytics-dashboard/issues"
+  },
+  "homepage": "https://github.com/gearsdigital/kirby-analytics-dashboard#readme"
+}

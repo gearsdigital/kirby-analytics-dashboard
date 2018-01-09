@@ -1,0 +1,29 @@
+.gears-error-message {
+    color:red;
+    word-wrap: break-word;
+}
+
+.sign-in-button {
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    border: none;
+    width: 191px;
+    height: 46px;
+    background: url("../img/google_signin_button/1x/btn_google_signin_dark_normal_web.png");
+}
+
+.sign-in-button:hover {
+    background: url("../img/google_signin_button/1x/btn_google_signin_dark_pressed_web.png");
+}
+
+.sign-in-button:active {
+    background: url("../img/google_signin_button/1x/btn_google_signin_dark_focus_web.png");
+}
+
+.sign-in-button:focus {
+    outline: none;
+    background: url("../img/google_signin_button/1x/btn_google_signin_dark_pressed_web.png");
+
+}
