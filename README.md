@@ -76,3 +76,14 @@ This plugin is using only the **Google Analytics Reporting API** which means our
 5. [ ] add configuration page
 6. [ ] make visitor widget configurable
 7. [ ] add tests
+
+## Contributors
+
+Thank you very much for your effort.
+
+[**@labs-scnm**](https://github.com/labs-scnm) [(df98a74)](https://github.com/gearsdigital/kirby-analytics-dashboard/commit/0ea8db8e1f31707ecb5a594008d84d4991b39f80)
+
+## Contributing
+
+All contributions are very welcome – if you found a bug please tell me!
+

@@ -13,6 +13,13 @@
     "url": "git+https://github.com/gearsdigital/kirby-analytics-dashboard.git"
   },
   "author": "Steffen Giers <steffen.giers@gmail.com>",
+  "contributors": [
+    {
+      "name": "Sebastian Müller",
+      "email": "smueller@kukulili.com",
+      "homepage": "https://www.kukulili-labs.com/"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/gearsdigital/kirby-analytics-dashboard/issues"
