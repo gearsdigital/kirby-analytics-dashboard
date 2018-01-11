@@ -3,6 +3,10 @@
 <script>
     gears.VisitorsWidget({
         container: 'visitors-widget',
+        locale: {
+            visitors: '<?php echo l::get('gears-visitors'); ?>',
+            signIn: '<?php echo l::get('gears-sign-in'); ?>'
+        },
         client: '<?php echo c::get('analytics.dashboard.client.id'); ?>',
         visitorsReport: {
             viewId: '<?php echo c::get('analytics.dashboard.view.id'); ?>',

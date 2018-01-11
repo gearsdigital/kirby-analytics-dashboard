@@ -9,8 +9,9 @@ import 'moment/src/locale/de';
  * @author Steffen Giers <steffen.giers@gmail.com>
  */
 export class VisitorsWidgetChart {
-  constructor(container) {
+  constructor(container, locale) {
     this.container = container;
+    this.locale = locale;
   }
 
   /**
@@ -130,7 +131,7 @@ export class VisitorsWidgetChart {
     const prefix = difference > 0 ? '+' : '';
     const suffix = '%';
 
-    return `${thisWeek} Besucher (${prefix}${difference.replace(
+    return `${thisWeek} ${this.locale.visitors} (${prefix}${difference.replace(
       '.',
       ','
     )}${suffix})`;

@@ -67,7 +67,7 @@ export class Auth {
    */
   toogleAuthButton(authState) {
     const authInstance = gapi.auth2.getAuthInstance();
-    const button = new ButtonFactory(authInstance);
+    const button = new ButtonFactory(authInstance, this.options.locale);
     const container = document.getElementById(this.options.container);
 
     authState

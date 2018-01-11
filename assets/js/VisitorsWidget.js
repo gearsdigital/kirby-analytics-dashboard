@@ -46,7 +46,7 @@ export class VisitorsWidget extends Widget {
    * @param chartData
    */
   renderChart(chartData) {
-    const chart = new VisitorsWidgetChart(this.options.container);
+    const chart = new VisitorsWidgetChart(this.options.container, this.options.locale);
     chart.create(chartData);
   }
 

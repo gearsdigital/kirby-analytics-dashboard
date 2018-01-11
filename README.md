@@ -80,6 +80,15 @@ An alternative approach is to go to **Google Analytics** > **Administration** > 
 
 The view ID should look like: `ga:12345678`.
 
+## Languages
+
+Currently are three languages supported. English (default), German and French. If you want to explicitly set a language just add this to your `config.php`.
+
+```php
+c::set('analytics.dashboard.language', 'de'); // en, fr
+```
+The built-in support for multi-language sites is respected.
+
 ## Quotas
 
 As Google Analytics is used by millions of sites they put limits and quotas on API requests to protect the system from receiving more data than it can handle. Learn more about [**limits and quotas**](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas).

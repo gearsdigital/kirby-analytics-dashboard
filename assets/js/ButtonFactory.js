@@ -7,8 +7,9 @@ import { uuid } from './Helper';
  * @author Steffen Giers <steffen.giers@gmail.com>
  */
 export class ButtonFactory {
-  constructor(authInstance) {
+  constructor(authInstance, locale) {
     this.authInstance = authInstance;
+    this.locale = locale;
   }
 
   /**
@@ -33,7 +34,9 @@ export class ButtonFactory {
   create(container, clsName) {
     const button = document.createElement('button');
 
-    button.innerHTML = 'Sign in with Google';
+    button.innerHTML = this.locale.signIn
+      ? this.locale.signIn
+      : 'Sign in with Google';
     button.id = this.createButtonID(uuid());
 
     if (clsName) {
