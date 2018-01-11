@@ -63,6 +63,11 @@ export class VisitorsWidget extends Widget {
     let periods;
 
     for (const report of reports) {
+      if (!report.data.rows) {
+        throw {
+          message: 'Sorry, but there is currently no data available.'
+        };
+      }
       periods = provider.buildPeriods(report.data.rows);
     }
 
