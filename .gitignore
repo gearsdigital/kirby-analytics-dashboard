@@ -62,5 +62,4 @@ composer.phar
 /analytics-config.json
 /service-account-credentials.json
 /assets/js/.cache/
-/assets/js/dist/
 /node_modules/
