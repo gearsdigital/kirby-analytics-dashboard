@@ -42,7 +42,7 @@ kirby plugin:install gearsdigital/kirby-analytics-dashboard
 
 Request blocking browser extensions like `uBlock Origin` or `Ghostery` will probably block all request to Google. So make sure to whitelist your panel or temporarily disable those extenstions.
 
-In order to retrieve data from Google Analytics you have to create a Google Service Account and create a **client ID**. A **view ID** is required as well.
+In order to retrieve data from Google Analytics you have to create a Google Service Account to create a **client ID**. A **view ID** is required as well.
 
 ## How to get a Client ID
 
@@ -72,7 +72,7 @@ The client ID should look like: `xxxxxxxxxxx.apps.googleusercontent.com`
 	 
 ## How to get a Google View ID
 
-One way to retrieve a view ID is the [**Google Account Explorer**](https://ga-dev- tools.appspot.com/account-explorer/). Use this tool to search or browse through your accounts, properties, and views, See what accounts you have access to, and find the IDs that you need for the API or for another tool or service that integrates with Google Analytics.
+One way to retrieve a view ID is the [**Google Account Explorer**](https://ga-dev-tools.appspot.com/account-explorer). Use this tool to search or browse through your accounts, properties, and views, See what accounts you have access to, and find the IDs that you need for the API or for another tool or service that integrates with Google Analytics.
 
 You will find the view ID under **Table ID (ids)**.
 
