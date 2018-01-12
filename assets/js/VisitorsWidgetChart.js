@@ -1,6 +1,8 @@
 import Chart from 'chart.js';
 import moment from 'moment';
 import 'moment/src/locale/de';
+import 'moment/src/locale/fr';
+import 'moment/src/locale/en-gb';
 
 /**
  * VisitorsChart
@@ -196,7 +198,13 @@ export class VisitorsWidgetChart {
     if (subtract) {
       momentDate.subtract(subtract, 'd');
     }
-    return momentDate.locale(window.navigator.language).format(format);
+
+    // this is a bit hacky but works for now
+    if (this.locale.code === 'en') {
+      this.locale.code = 'en-gb';
+    }
+
+    return momentDate.locale(this.locale.code).format(format);
   }
 
   /**

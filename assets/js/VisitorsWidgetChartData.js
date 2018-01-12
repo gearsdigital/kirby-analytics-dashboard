@@ -1,6 +1,5 @@
 import { extendMoment } from 'moment-range';
 import Moment from 'moment';
-import 'moment/src/locale/de';
 
 const moment = extendMoment(Moment);
 

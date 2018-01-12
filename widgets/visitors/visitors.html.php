@@ -4,6 +4,7 @@
     gears.VisitorsWidget({
         container: 'visitors-widget',
         locale: {
+            code: '<?php echo PLUGIN_SITE_LANGUAGE_CODE;?>',
             visitors: '<?php echo l::get('gears-visitors'); ?>',
             signIn: '<?php echo l::get('gears-sign-in'); ?>'
         },
